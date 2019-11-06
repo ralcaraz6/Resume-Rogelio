@@ -98,6 +98,18 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card.Experience {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #green;
+  border-bottom: 4px solid #green;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
@@ -171,6 +183,15 @@ a.social:hover {
 @media screen and (min-width: 720px) {
 
   .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex;
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  .flex.experience {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
